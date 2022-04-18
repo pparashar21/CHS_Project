@@ -2,7 +2,7 @@ node{
 
     stage('Build')
     {
-        git credentialsId: '4cc785e9-441d-4818-a248-2bfb2148004d', url: ''
+        git credentialsId: '4cc785e9-441d-4818-a248-2bfb2148004d', url: 'https://github.com/pparashar21/CHS_Project.git'
     }
     
     stage('Run')
